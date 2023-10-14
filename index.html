@@ -1,1 +1,104 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Roberta De Cecco's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+    <header>
+        <!-- This is the navigation bar -->
+        <nav>
+            <!-- These are the navigation links -->
+            <a href="#about">About Me</a>
+            <a href="#projects">My Projects</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+    <main>
+        <!-- This is the "hero" section with pics -->
+        <section class="hero">
+            <img src="images/rdc.png" class="profile-picture" alt="Headshot photo">
+        </section>
+        <section class="content about" id="about">
+            <h1>About Me</h1>
+            <div>
+                <h4 class="emphasis">Welcome to Roberta De Cecco's Webpage</h4>
+                <p>Roberta moves to Australia about 18 years ago from Italy.
+                    She now happily lives in sunny Perth (WA).
+                    She is an experienced and Agile certified manual software tester, with a growing interest in
+                    Automation.She has recently moved into a Test Engineer role and is a cohort of the <span
+                        class="course-name">'2023 She Codes Plus Program'</span>.
+                    Grateful to be chosen to participate in the Program, Roberta hopes to upskill herself into the tech
+                    world of programming languages but also, meet, support and share the journey with other Women with
+                    same aspirations for new long lasting friendship/collaborations.
+                    Let's see where this adventure is going to take her...Stay tuned but, in the meantime, feel free to
+                    browse the Projects section to see what she has learnt so far during her first
+                    module on HTML-CSS and what she is going to learn next.
+                </p>
+            </div>
+        </section>
+        <div class="gotop">
+            <a href="#top">^</a>
+        </div>
+
+        <!-- This is the "Projects" section -->
+        <section class="content projects" id="projects">
+            <h1 href="index_1.html">My Projects</h1>
+            <ul>
+                <!-- These are the links to the author's projects -->
+                <li><a href="index_1.html">HTML-CSS</a></li>
+                <li><a href="project2.html">PYTHON</a></li>
+                <li><a href="project3.html">DJANGO</a></li>
+                <li><a href="project4.html">DJANGORest</a></li>
+                <li><a href="project5.html">JavaScript</a></li>
+                <li><a href="project6.html">REACT</a></li>
+            </ul>
+        </section>
+        <div class="gotop">
+            <a href="#top">^</a>
+        </div>
+
+        <!-- This is the "Contact Me" section -->
+        <section class="content contact" id="contact">
+            <h1>Let's Connect</h1>
+            <!-- This is the contact form -->
+            <form action="https://formspree.io/f/mleyaegb" method="POST">
+                <label for="name">Your First Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="lastname">Your Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Leave me a message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <div class="gotop">
+            <a href="#top">^</a>
+        </div>
+
+    </main>
+
+    <!-- This is the footer section -->
+    <footer>
+        <a href="https://www.linkedin.com/in/roberta-de-cecco-837b6a12/" target="_blank" rel="noopener no referrer"><img
+                class="logo" src="images/linkedin.png" alt="LinkedIn icon"></a>
+        <a href="https://github.com/RobyOneJ" target="_blank" rel="noopener no referrer"><img class="logo"
+                src="images/github.png" alt="GitHub icon"></a>
+        <p class="small-text">© 2023 Roberta De Cecco. All rights reserved.</p>
+        <p class="small-text">Empowered by<a href="http://shecodes.com.au" target="_blank"
+                rel="noopener no referrer"><img class="shecodeslogo" src="images/She_Codes.png" alt="SheCodes icon" />
+            </a></p>
+    </footer>
+</body>
+
+</html>
+
+
+<!-- removing the email logo since redudant due to the contact form but keeping the code for reusability <a href="roberta.dececco@gmail.com"><img class="logo" src="images/email.png" alt="Email icon"></a> target="_blank" rel="noopener no referrer"-->

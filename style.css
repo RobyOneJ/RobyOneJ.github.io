@@ -1,0 +1,324 @@
+/*Typography and definition of root colors as variables*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap');
+
+:root {
+    /*background color for desktop view*/
+    --color1: #535353;
+    /*fonts color for desktop and mobile view*/
+    --color2: #D8FCFE;
+    /*background color for mobile view*/
+    --color3: #ADD8E6;
+    /*background for section content desktop mode*/
+    --color4: #292727;
+    /*fonts color for section content in desktop mode*/
+    --color5: #F5F5F5;
+}
+
+/* set default body font style here */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: 20px;
+
+}
+
+/* Add Heading styles here  */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #00FFFB;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Default style of <a> tag*/
+a {
+    font-size: 24px;
+    color: var(--color2);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/* Default style for mouse pointer on the <a> element*/
+a:hover {
+    background-color: var(--color2);
+    color: var(--color1);
+    border-radius: 6px;
+}
+/* Style for the 'go to top' icon */
+div.gotop {
+    margin-bottom: 10%;
+    text-align: right;
+}
+
+/* profile picture size*/
+.profile-picture {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 20%;
+    border-radius: 20%;
+}
+
+/* Center the header logo */
+.hero {
+    text-align: center;
+}
+/*General style for all the secion content*/
+section.content {
+    border-radius: 6px;
+    background-color: var(--color4);
+    color: var(--color5);
+    margin: 0;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    text-align: justify;
+}
+
+.emphasis {
+    margin-right: 1rem;
+    font-style: italic;
+}
+
+.course-name {
+    font-style: italic;
+}
+
+/* Style for the contact form and all its fields*/
+section.contact form {
+    text-align: center;
+}
+
+section.contact form label {
+    display: block;
+}
+
+section.contact form input {
+    width: 60%;
+}
+
+section.contact form textarea {
+    width: 60%;
+    resize: none;
+}
+
+/* input fields focus setup*/
+input:focus {
+    background-color: lightgrey;
+}
+
+/* textarea focus setup*/
+textarea:focus {
+    background-color: lightgrey;
+}
+
+/* Send button focus setup*/
+button:focus {
+    background-color: yellow;
+}
+
+
+/* social platform logos styles*/
+.logo {
+    padding-right: 6px;
+    padding-left: 6px;
+    width: 40px;
+}
+
+.shecodeslogo {
+    height: 24px;
+    margin-left: 4.5px;
+    margin-right: 4.5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.shecodeslogo:hover {
+    height: 28px;
+    margin: 0;
+}
+
+footer p.small-text a {
+    vertical-align: text-top;
+}
+
+.small-text {
+    font-size: small;
+}
+
+footer a:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
+footer a img {
+    margin: 5px;
+}
+
+footer a:hover img.logo {
+    width: 50px;
+    margin: 0;
+}
+
+/* Style for the header nav links*/
+header nav {
+    display: flex;
+    color: #ECEDFE;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+/*Style for the projects links*/
+.projects ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+/* Style for the footer*/
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+/* --Styles for mobile devices-- */
+@media only screen and (max-width: 767px) {
+
+    /* Adjust body font size and color for smaller screens */
+    body {
+        font-size: 18px;
+        background-color: var(--color3);
+    }
+    /* Adjust navigation links font size and colors for smaller screens */
+    nav a {
+        font-size: 20px;
+        color: black;
+    }
+
+    /* nav links focus setup on mobile*/
+    nav a:focus {
+        background-color: var(--color2);
+        color: var(--color1);
+        border-radius: 6px;
+    }
+
+    /*Changed go to top icon color for better accessibility*/
+    div.gotop a {
+        color: #292727;
+    }
+
+    /*Changed color of the footer text for better accessibility*/
+    footer p {
+        color: black;
+    }
+
+    /*Adjustment of profile pic for mobile view*/
+    .profile-picture {
+        margin-top: 12%;
+        margin-bottom: 0%;
+        width: 30%;
+        border-radius: 20%;
+    }
+
+    /*Adjusted contact form field style for mobile*/
+    section.contact form input {
+        width: 70%;
+        font-size: 18px;
+    }
+
+    section.contact form textarea {
+        width: 70%;
+    }
+
+
+    /* Stack the navigation links vertically */
+    #projects ul {
+        display: inherit;
+        flex-direction: row;
+    }
+
+    /* Adjust the width of the portfolio items */
+    .portfolio-item {
+        width: 100%;
+    }
+}
+
+/* Styles for tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* Adjust font size for medium-sized screens */
+    body {
+        font-size: 16px;
+    }
+
+
+    /* Stack the navigation links vertically */
+    .nav-links {
+        display: block;
+        text-align: center;
+    }
+
+    /* Adjust the width of the portfolio items */
+    .portfolio-item {
+        width: 50%;
+    }
+}
+
+
+
+/* Styles for desktop devices */
+@media only screen and (min-width: 992px) {
+
+    /* Adjust font size for larger screens */
+    body {
+        font-size: 18px;
+    }
+
+    /* Float the hero logo to the center */
+    .hero {
+        float: center;
+    }
+
+    /* Float the navigation links to the right */
+    .nav-links {
+        float: right;
+    }
+
+    /* Adjust the width of the portfolio items */
+    .portfolio-item {
+        width: 33.33%;
+    }
+}
+
+/*--not sure I want to remove this style*/
+/*header img {
+    height: 50px;
+    width: 60%;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}*/
+
+/* ---- toggle menu for nav on smaller devices --TODO-- */
