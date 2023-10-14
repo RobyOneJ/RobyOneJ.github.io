@@ -1,5 +1,5 @@
 /*Typography and definition of root colors as variables*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap');
 
 :root {
     /*background color for desktop view*/
@@ -24,10 +24,16 @@ body {
 
 }
 
+.openmenu {
+    /* hides checkbox for most larger devices */
+    display: none;
+}
+
 /* Add Heading styles here  */
 h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
+    font-style: italic;
 }
 
 h2 {
@@ -36,7 +42,8 @@ h2 {
 }
 
 h3 {
-    font-size: 28px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
 }
 
 h4 {
@@ -66,6 +73,7 @@ a:hover {
     color: var(--color1);
     border-radius: 6px;
 }
+
 /* Style for the 'go to top' icon */
 div.gotop {
     margin-bottom: 10%;
@@ -75,16 +83,19 @@ div.gotop {
 /* profile picture size*/
 .profile-picture {
     margin-top: 6%;
-    margin-bottom: 6%;
+    margin-bottom: 4%;
     width: 20%;
     border-radius: 20%;
 }
 
-/* Center the header logo */
+/* Center the header headshot picture */
 .hero {
     text-align: center;
+    margin-bottom: 8%;
+    
 }
-/*General style for all the secion content*/
+
+/*General style for all the secions content*/
 section.content {
     border-radius: 6px;
     background-color: var(--color4);
@@ -103,6 +114,7 @@ section.content {
 
 .course-name {
     font-style: italic;
+    color: #00FFFB;
 }
 
 /* Style for the contact form and all its fields*/
@@ -182,12 +194,14 @@ footer a:hover img.logo {
 }
 
 /* Style for the header nav links*/
+
 header nav {
     display: flex;
     color: #ECEDFE;
     justify-content: space-evenly;
     flex-direction: row;
 }
+
 /*Style for the projects links*/
 .projects ul {
     display: flex;
@@ -206,11 +220,110 @@ footer {
 /* --Styles for mobile devices-- */
 @media only screen and (max-width: 767px) {
 
+    /* ---- toggle menu for nav on smaller devices ---- */
+    .menu {
+        display: none;
+    }
+
+    .checkbox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .openmenu {
+        display: block;
+        height: 32px;
+        width: 32px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 5;
+        cursor: pointer;
+        /* -- hides checkbox -- */
+        opacity: 0;
+        margin: 10px;
+    }
+
+    /* -- opens menu -- */
+    .checkbox input[type="checkbox"]:checked~.menu {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .checkbox .hamburger-lines {
+        padding: 0;
+        margin: 10px;
+        display: block;
+        height: 26px;
+        width: 32px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .checkbox .hamburger-lines .line {
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #292727;
+        border: 1px solid white;
+    }
+
+    /* -- transform hamburger lines -- */
+    .checkbox .hamburger-lines .line1 {
+        transform-origin: 0% 0%;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .checkbox .hamburger-lines .line2 {
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .checkbox .hamburger-lines .line3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    /* -- change hamburger when checked -- */
+    .checkbox input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(45deg);
+        background: white;
+
+    }
+
+    .checkbox input[type="checkbox"]:checked~.hamburger-lines .line2 {
+        transform: scaleY(0);
+        background: white;
+
+    }
+
+    .checkbox input[type="checkbox"]:checked~.hamburger-lines .line3 {
+        transform: rotate(-45deg);
+        background: white;
+
+    }
+
+    /*  ------------- end of toggle menu ------------- */
+
+
     /* Adjust body font size and color for smaller screens */
     body {
         font-size: 18px;
         background-color: var(--color3);
     }
+
+    .signature h3{
+        font-style: oblique;
+        color: var(--color4);
+    }
+
     /* Adjust navigation links font size and colors for smaller screens */
     nav a {
         font-size: 20px;
@@ -224,7 +337,7 @@ footer {
         border-radius: 6px;
     }
 
-    /*Changed go to top icon color for better accessibility*/
+    /*Changed 'go to top' icon color for better accessibility*/
     div.gotop a {
         color: #292727;
     }
