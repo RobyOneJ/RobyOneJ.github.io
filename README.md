@@ -23,7 +23,7 @@
  ### Content
 
  - [Y] At least one profile picture 
-    - Headshot picture is static: https://robyonej.github.io/images/rdc.png 
+    - Headshot picture is static: ![](images/rdc.png) 
  - [Y] Biography (at least 100 words)
     - Biography is just plain text with 'emphasis' for the h4 subtitle and some styling for the 'She Codes Plus' program reference.
  - [Y] Functional Contact Form
@@ -53,16 +53,13 @@
  - [Y] Different styles for active, hover and focus states.
     - My CSS style uses :focus, :hover and :active. Eg: check line 70 of my CSS code: /* Default style for mouse pointer on the 'a' element*/
         - Hover - Visible in desktop view. When user hovers on top of the nav hyperlinks, they activate. See screenshot: ![](screenshots/Hovering_activating_element.png) ![](screenshots/Hovering_activating_hyperlink.png) ![](screenshots/Hovering_activating_logs.png)
-        - Focus - on input fields of the contact form; from white background color to a light grey color when on it. See screenshot:![](screenshots/Focus_on_field.png)
+        - Focus - on input fields of the contact form; from white background color to a light grey color when on it. See videos below in the 'Features videos' section.
         - Active - when an element is clicked, text color changes to red. See videos below in the 'Features videos' section.
 
  - [N] Include JavaScript to add some dynamic elements to your site. (Extratricky!)
- 
- ### Screenshots> Please include the following:
- For both points below, please check videos in my screenshots folder: 'Video1_Desktop_Tablet' views and 'Video2_Mobile view'.
-
 
 #### Features videos
+Made videos to show the features in action: 'Video1_Desktop_Tablet' views and 'Video2_Mobile view'.
 
 - [Desktop_Tablet view](./screenshots/Video1_Desktop_Tablet_view.mp4)
 - [Mobile view](./screenshots/Video2_Mobile_view.mp4)
