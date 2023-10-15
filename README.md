@@ -69,3 +69,5 @@ Made videos to show the features in action: 'Video1_Desktop_Tablet' views and 'V
 
 - [Desktop_Tablet view](./screenshots/Video1_Desktop_Tablet_view.mp4)
 - [Mobile view](./screenshots/Video2_Mobile_view.mp4)
+
+Note: added smooth scrolling after having done the videos - please check its functionality by opening my webpage.
