@@ -52,7 +52,13 @@
 
  - [Y] Different styles for active, hover and focus states.
     - My CSS style uses :focus, :hover and :active. Eg: check line 70 of my CSS code: /* Default style for mouse pointer on the 'a' element*/
-        - Hover - Visible in desktop view. When user hovers on top of the nav hyperlinks, they activate. See screenshot: ![](screenshots/Hovering_activating_element.png) ![](screenshots/Hovering_activating_hyperlink.png) ![](screenshots/Hovering_activating_logs.png)
+        - Hover - Visible in desktop view. When user hovers on top of the nav hyperlinks, they activate. See screenshot: 
+        
+        ![](screenshots/Hovering_activating_element.png) 
+        
+        ![](screenshots/Hovering_activating_hyperlink.png) 
+        
+        ![](screenshots/Hovering_activating_logs.png)
         - Focus - on input fields of the contact form; from white background color to a light grey color when on it. See videos below in the 'Features videos' section.
         - Active - when an element is clicked, text color changes to red. See videos below in the 'Features videos' section.
 
