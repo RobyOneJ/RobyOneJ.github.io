@@ -1,7 +1,7 @@
  # Roberta De Cecco - Portfolio Task
   My first project in HTML-CSS (v 1.0 - Oct2023) as part of the She Codes Australia Plus Program 2023/2024.
  
- # [My portfolio site] (https://robyonej.github.io/index.html)
+ # [My portfolio site](https://robyonej.github.io/index.html)
 
  # Resources:
  1. To check accessibility of chosen colors: https://webaim.org/resources/contrastchecker/
@@ -11,12 +11,12 @@
  5. For colors styleguide: https://codepen.io/Roberta-De-Cecco/pen/qBLLjQg?editors=1100
 
  # Wireframe: 
- ![Original wireframe screenshot] (./images/Wireframe-2023-10-08.png)
+ ![Original wireframe screenshot](./images/Wireframe-2023-10-08.png)
 
  # Accessibility:
- ![Screenshots] (./images/styleguide/first-combo.PNG)
- ![] (./images/styleguide/second-combo.PNG)
- ![] (./images/styleguide/third-combo.PNG)
+ ![Screenshots](./images/styleguide/first-combo.PNG)
+ ![](./images/styleguide/second-combo.PNG)
+ ![](./images/styleguide/third-combo.PNG)
 
  ## Project Requirements
  
@@ -64,5 +64,5 @@
 
 #### Features videos
 
-[Desktop_Tablet view](./screenshots/Video1_Desktop_Tablet_view.mp4)
-[Mobile view](./screenshots/Video2_Mobile_view.mp4)
+- [Desktop_Tablet view](./screenshots/Video1_Desktop_Tablet_view.mp4)
+- [Mobile view](./screenshots/Video2_Mobile_view.mp4)
