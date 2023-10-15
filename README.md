@@ -46,14 +46,14 @@
  - [Y] Uses semantic HTML.
     - My HTML code contains th following semantic element: header,html,head,body,main,nav,section,footer;
 
- Checked my HTML code into: https://validator.w3.org/nu/#l62c37 and got this response: Document checking completed. No errors or warnings to show. See screenshot: https://robyonej.github.io/screenshots/Semantic_HTML_ValidatorResponse.png
+ Checked my HTML code into: https://validator.w3.org/nu/#l62c37 and got this response: Document checking completed. No errors or warnings to show. See screenshot: ![](./screenshots/Semantic_HTML_ValidatorResponse.png)
  
  ### Bonus (optional)
 
  - [Y] Different styles for active, hover and focus states.
     - My CSS style uses :focus, :hover and :active. Eg: check line 70 of my CSS code: /* Default style for mouse pointer on the 'a' element*/
-        - Hover - Visible in desktop view. When user hovers on top of the nav hyperlinks, they activate. See screenshot: https://robyonej.github.io/screenshots/Hovering_activating_element.png; https://robyonej.github.io/screenshots/Hovering_activating_hyperlink.png; https://robyonej.github.io/screenshots/Hovering_activating_logs.png;
-        - Focus - on input fields of the contact form; from white background color to a light grey color when on it. See screenshot: https://robyonej.github.io/screenshots/Focus_on_field.png.
+        - Hover - Visible in desktop view. When user hovers on top of the nav hyperlinks, they activate. See screenshot: ![](screenshots/Hovering_activating_element.png) ![](screenshots/Hovering_activating_hyperlink.png) ![](screenshots/Hovering_activating_logs.png)
+        - Focus - on input fields of the contact form; from white background color to a light grey color when on it. See screenshot:![](screenshots/Focus_on_field.png)
         - Active - when an element is clicked, text color changes to red. See videos below in the 'Features videos' section.
 
  - [N] Include JavaScript to add some dynamic elements to your site. (Extratricky!)
