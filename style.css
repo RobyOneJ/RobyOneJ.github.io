@@ -74,6 +74,10 @@ a:hover {
     border-radius: 6px;
 }
 
+a:active {
+    color: red;
+  }
+
 /* Style for the 'go to top' icon */
 div.gotop {
     margin-bottom: 10%;
@@ -92,7 +96,7 @@ div.gotop {
 .hero {
     text-align: center;
     margin-bottom: 8%;
-    
+
 }
 
 /*General style for all the secions content*/
@@ -106,6 +110,7 @@ section.content {
     padding-bottom: 18px;
     text-align: justify;
 }
+
 
 .emphasis {
     margin-right: 1rem;
@@ -319,7 +324,7 @@ footer {
         background-color: var(--color3);
     }
 
-    .signature h3{
+    .signature h3 {
         font-style: oblique;
         color: var(--color4);
     }
@@ -328,6 +333,7 @@ footer {
     nav a {
         font-size: 20px;
         color: black;
+        text-align: right;
     }
 
     /* nav links focus setup on mobile*/
@@ -356,10 +362,12 @@ footer {
     }
 
     /*Adjusted contact form field style for mobile*/
+
     section.contact form input {
         width: 70%;
         font-size: 18px;
     }
+
 
     section.contact form textarea {
         width: 70%;
