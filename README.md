@@ -18,6 +18,8 @@
  ![](./images/styleguide/second-combo.PNG)
  ![](./images/styleguide/third-combo.PNG)
 
+
+
  ## Project Requirements
  
  ### Content
@@ -30,9 +32,12 @@
     - Contact Form has been setup with Formspree and, it successfully sends an email to my email address.
  - [Y] "Projects" section
     - Projects section shows a list of projects I will be working on during She Codes Plus and, each of them is a link, which redirects visitors to a second page https://robyonej.github.io/projects.html where, they will see a 'Coming Soon..' text along with the icons to the external sites and an hamburger menu to redirect them back to the Homepage or the other sections, on the homepage, they click on in the hamburger menu.
+    - Only the HTML-CSS project page will display clickable thumbnails with label of the name of the projects I have created so far. The 'She Codes landing page restyling' will redirect you to the Codepen page to look at it; 'My Portfolio' will redirect you to y portfolio Homepage.
  - [Y] Links to external sites, e.g. GitHub and LinkedIn 
     - Links to external site are shown as icons at the footer of the page and their redirect visitors to my social platforms on a new tab - github.png and linkedin.png saved in: 'images' folder
  
+
+
  ### Technical
 
  - [Y] At least 2 web pages.
@@ -43,11 +48,15 @@
     - My portfolio is deployed on GitHub pages: https://github.com/RobyOneJ/RobyOneJ.github.io
  - [Y] Implements responsive design principles.
     - My CSS contains media queries to make the webpages responsive when transictioning from Desktop to Mobile or Tablets devices. Text adjusts accordingly to the device used, header menu becomes an hamburger menu; sections align vertically but this is more visible in the Projects sections where the links, horizontally aligned in the desktop version, align vertically when in mobile or tablet mode.
+    - Added smooth scrolling for the 'go to top' navigation icons under each main sections.
  - [Y] Uses semantic HTML.
     - My HTML code contains th following semantic element: header,html,head,body,main,nav,section,footer;
 
- Checked my HTML code into: https://validator.w3.org/nu/#l62c37 and got this response: Document checking completed. No errors or warnings to show. See screenshot: ![](./screenshots/Semantic_HTML_ValidatorResponse.png)
+ Checked my HTML code into: https://validator.w3.org/nu/#l62c37 for each page I created and got this response: Document checking completed. No errors or warnings to show. Linking only one image as evidence: ![](./screenshots/Semantic_HTML_ValidatorResponse.png)
  
+
+
+
  ### Bonus (optional)
 
  - [Y] Different styles for active, hover and focus states.
@@ -64,10 +73,11 @@
 
  - [N] Include JavaScript to add some dynamic elements to your site. (Extratricky!)
 
+
+
+
 #### Features videos
 Made videos to show the features in action: 'Video1_Desktop_Tablet' views and 'Video2_Mobile view'.
 
-- [Desktop_Tablet view](./screenshots/Video1_Desktop_Tablet_view.mp4)
-- [Mobile view](./screenshots/Video2_Mobile_view.mp4)
-
-Note: added smooth scrolling after having done the videos - please check its functionality by opening my webpage.
+- [Desktop view](./screenshots/Video1 - Portfolio Destop view.mp4)
+- [Mobile_Tablet view](./screenshots/Video2 - Portfolio Mobile_Tablet view.mp4)

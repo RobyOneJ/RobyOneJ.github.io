@@ -17,7 +17,7 @@
 /*enabling smooth scrolling*/
 html {
     scroll-behavior: smooth;
-  }
+}
 
 /* set default body font style here */
 body {
@@ -25,8 +25,6 @@ body {
     font-size: 24px;
     background-color: var(--color1);
     color: var(--color2);
-    padding: 20px;
-
 }
 
 .openmenu {
@@ -73,7 +71,7 @@ a {
 }
 
 /* Default style for mouse pointer on the <a> element*/
-a:hover {
+a.menu-item:hover {
     background-color: var(--color2);
     color: var(--color1);
     border-radius: 6px;
@@ -81,7 +79,7 @@ a:hover {
 
 a:active {
     color: red;
-  }
+}
 
 /* Style for the 'go to top' icon */
 div.gotop {
@@ -102,6 +100,10 @@ div.gotop {
     text-align: center;
     margin-bottom: 8%;
 
+}
+
+.mobile {
+    display: none;
 }
 
 /*General style for all the secions content*/
@@ -127,6 +129,39 @@ section.content {
     color: #00FFFB;
 }
 
+/*thumbnails style*/
+.thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.thumbnail:hover {
+    cursor: pointer;
+    border-color: chartreuse;
+    box-shadow: 0 0 10px 5px yellow;
+}
+
+.centered-text {
+    text-align: center;
+
+}
+
+.padded {
+    padding: 20px;
+}
+
+.padded-100 {
+    padding: 100px;
+}
+
+.label {
+    font-size: 16px;
+    color: var(--color2);
+}
+
+
 /* Style for the contact form and all its fields*/
 section.contact form {
     text-align: center;
@@ -142,6 +177,7 @@ section.contact form input {
 
 section.contact form textarea {
     width: 60%;
+    min-height: 50px;
     resize: none;
 }
 
@@ -225,10 +261,21 @@ footer {
     text-align: center;
 }
 
-
+.spacer {
+    height: 40px;
+}
 
 /* --Styles for mobile devices-- */
 @media only screen and (max-width: 767px) {
+
+    .mobile {
+        display: inherit;
+    }
+
+    .label {
+        font-size: 12px;
+        color: var(--color4);
+    }
 
     /* ---- toggle menu for nav on smaller devices ---- */
     .menu {
@@ -329,6 +376,11 @@ footer {
         background-color: var(--color3);
     }
 
+    main>h1 {
+        font-size: 24px;
+        color: var(--color4);
+    }
+
     .signature h3 {
         font-style: oblique;
         color: var(--color4);
@@ -385,14 +437,10 @@ footer {
         flex-direction: row;
     }
 
-    /* Adjust the width of the portfolio items */
-    .portfolio-item {
-        width: 100%;
-    }
 }
 
 /* Styles for tablet devices */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
 
     /* Adjust font size for medium-sized screens */
     body {
@@ -406,9 +454,8 @@ footer {
         text-align: center;
     }
 
-    /* Adjust the width of the portfolio items */
-    .portfolio-item {
-        width: 50%;
+    #projects ul li a {
+        font-size: 18px;
     }
 }
 
@@ -432,10 +479,6 @@ footer {
         float: right;
     }
 
-    /* Adjust the width of the portfolio items */
-    .portfolio-item {
-        width: 33.33%;
-    }
 }
 
 /*--not sure I want to remove this style*/
