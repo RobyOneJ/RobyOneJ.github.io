@@ -77,7 +77,7 @@
 
 
 #### Features videos
-Made videos to show the features in action: 'Video1_Desktop_Tablet' views and 'Video2_Mobile view'.
+Made videos to show the features in action, please download them to be able to watch.
 
 - [Desktop view](./screenshots/Video1 - Portfolio Desktop view.mp4)
 - [Mobile_Tablet view](./screenshots/Video2 - Portfolio Mobile_Tablet view.mp4)
