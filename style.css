@@ -386,6 +386,11 @@ footer {
         color: var(--color4);
     }
 
+    p.centered-text {
+        font-size: 14px;
+        color: var(--color4);
+    }
+ 
     .signature h3 {
         font-style: oblique;
         color: var(--color4);
