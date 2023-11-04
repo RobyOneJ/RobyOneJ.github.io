@@ -25,7 +25,7 @@
  ### Content
 
  - [Y] At least one profile picture 
-    - Headshot picture is static: ![](images/rdc.png) 
+    - Headshot picture is static, ckeck the images folder (images/rdc.png) 
  - [Y] Biography (at least 100 words)
     - Biography is just plain text with 'emphasis' for the h4 subtitle and some styling for the 'She Codes Plus' program reference.
  - [Y] Functional Contact Form
@@ -79,5 +79,5 @@
 #### Features videos
 Made videos to show the features in action: 'Video1_Desktop_Tablet' views and 'Video2_Mobile view'.
 
-- [Desktop view](./screenshots/Video1 - Portfolio Destop view.mp4)
+- [Desktop view](./screenshots/Video1 - Portfolio Desktop view.mp4)
 - [Mobile_Tablet view](./screenshots/Video2 - Portfolio Mobile_Tablet view.mp4)
