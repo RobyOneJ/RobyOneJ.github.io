@@ -386,7 +386,7 @@ footer {
         color: var(--color4);
     }
 
-    p.centered-text {
+    .centered-text {
         font-size: 14px;
         color: var(--color4);
     }
